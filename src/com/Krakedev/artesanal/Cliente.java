@@ -1,7 +1,10 @@
 package com.Krakedev.artesanal;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 
+=======
+>>>>>>> b404326511c30bf49a0b8d16d576e6b35d000f58
 public class Cliente {
 	
 	private String nombre;
@@ -9,8 +12,11 @@ public class Cliente {
 	private int codigo;
 	private double totalConsumido;
 	
+<<<<<<< HEAD
 	private ArrayList<Cliente> clientes;
 	
+=======
+>>>>>>> b404326511c30bf49a0b8d16d576e6b35d000f58
 	public Cliente(String nombre,String cedula) {
 		this.nombre=nombre;
 		this.cedula=cedula;
@@ -44,6 +50,7 @@ public class Cliente {
 		this.totalConsumido = totalConsumido;
 	}
 	
+<<<<<<< HEAD
 	private int ultimoCodigo = 0;
 
     // Paso 9: registrarCliente
@@ -75,5 +82,7 @@ public class Cliente {
 	
 	
 	
+=======
+>>>>>>> b404326511c30bf49a0b8d16d576e6b35d000f58
 
 }
